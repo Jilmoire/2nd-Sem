@@ -12,7 +12,7 @@ main .layout{
     align-content: space-around;
     border: solid;
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
     border-radius: 50px;
     padding: 20px;
 }
