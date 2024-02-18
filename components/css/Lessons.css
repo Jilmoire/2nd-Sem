@@ -31,7 +31,6 @@ main .layout .dropdown .dropdown-content{
     display: none;
     grid-column: span 2;
 }
-
 main .layout .dropdown .dropdown-checkbox{
     height: 50px;
 }
