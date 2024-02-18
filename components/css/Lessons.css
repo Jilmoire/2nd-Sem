@@ -26,7 +26,6 @@ main .layout .lesson-select{
 }
 main .layout .lesson-select#en .content-checkbox:checked ~ .dropdown-content{
     display: block;
-    float: none;
     border: solid;
 }
 main .layout .lesson-select#en .dropdown-content{
