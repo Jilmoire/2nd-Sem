@@ -32,52 +32,10 @@ main .layout .dropdown .dropdown-content{
     grid-column: span 2;
 }
 
-main .layout .dropdown#en .dropdown-checkbox{
+main .layout .dropdown .dropdown-checkbox{
     height: 50px;
 }
-main .layout .dropdown#en .dropdown-checkbox:checked ~ .dropdown-content {
-    display: block;
-    padding: 10px;
-}
-main .layout .dropdown#fil .dropdown-checkbox{
-    height: 50px;
-}
-main .layout .dropdown#fil .dropdown-checkbox:checked ~ .dropdown-content {
-    display: block;
-    padding: 10px;
-}
-main .layout .dropdown#stat .dropdown-checkbox{
-    height: 50px;
-}
-main .layout .dropdown#stat .dropdown-checkbox:checked ~ .dropdown-content {
-    display: block;
-    padding: 10px;
-}
-main .layout .dropdown#bascal .dropdown-checkbox{
-    height: 50px;
-}
-main .layout .dropdown#bascal .dropdown-checkbox:checked ~ .dropdown-content {
-    display: block;
-    padding: 10px;
-}
-main .layout .dropdown#drrr .dropdown-checkbox{
-    height: 50px;
-}
-main .layout .dropdown#drrr .dropdown-checkbox:checked ~ .dropdown-content {
-    display: block;
-    padding: 10px;
-}
-main .layout .dropdown#research .dropdown-checkbox{
-    height: 50px;
-}
-main .layout .dropdown#research .dropdown-checkbox:checked ~ .dropdown-content {
-    display: block;
-    padding: 10px;
-}
-main .layout .dropdown#perdev .dropdown-checkbox{
-    height: 50px;
-}
-main .layout .dropdown#perdev .dropdown-checkbox:checked ~ .dropdown-content {
+main .layout .dropdown .dropdown-checkbox:checked ~ .dropdown-content {
     display: block;
     padding: 10px;
 }
