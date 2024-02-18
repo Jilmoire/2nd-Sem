@@ -18,11 +18,23 @@ main .layout{
     padding: 20px;
 }
 main .layout .dropdown{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
     border: solid;
     min-width: 90%;
     max-height: auto;
     min-height: 10%;
-    justify-content: center;
+    text-align: center;
     align-items: center;
+}
+main .layout .dropdown .dropdown-content{
+    display: none;
+    grid-column: span 2;
+}
+main .layout .dropdown#en .dropdown-checkbox{
+    height: 50px;
+}
+main .layout .dropdown#en .dropdown-checkbox:checked ~ .dropdown-content {
+    display: block;
+    padding: 10px;
 }
