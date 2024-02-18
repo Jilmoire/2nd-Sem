@@ -28,16 +28,18 @@ main .layout .dropdown{
     padding: 10px 5px;
 }
 main .layout .dropdown .dropdown-content{
-    transform: scaleY(0);
+    /*transform: scaleY(0);*/
     grid-column: span 2;
-    transition: 250ms ease;
+    transition: 250ms ease-in-out;
     height: 0;
+    overflow: hidden;
 }
 main .layout .dropdown .dropdown-checkbox{
     height: 50px;
 }
 main .layout .dropdown .dropdown-checkbox:checked ~ .dropdown-content {
-    transform: scaleY(1);
+    /*transform: scaleY(1);*/
     padding: 10px;
     height: fit-content;
+    transition: 250ms ease-in-out;
 }
